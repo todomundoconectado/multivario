@@ -1,11 +1,11 @@
 export function LpNavbar() {
     return (
-        <nav className="absolute top-0 w-full z-50 py-6">
+        <nav className="absolute top-0 w-full z-50 py-4 lg:py-6">
             <div className="container mx-auto px-6 flex justify-between items-center">
                 <div className="flex items-center gap-2">
                     <img
                         alt="Multivario Logo"
-                        className="w-[150px] sm:w-[200px] md:w-[350px] lg:w-[680px] h-auto lg:h-[170px] object-contain object-left"
+                        className="w-[140px] sm:w-[160px] md:w-[220px] lg:w-[480px] xl:w-[680px] h-auto lg:h-[130px] xl:h-[170px] object-contain object-left"
                         src="/images/diamond_led/logotipo.webp"
                     />
                 </div>

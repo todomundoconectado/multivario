@@ -3,7 +3,7 @@ import { AnimateInView } from "../AnimateInView";
 
 export function LpHero() {
     return (
-        <header className="relative min-h-screen flex items-center justify-center overflow-hidden bg-background-dark">
+        <header className="relative min-h-[100svh] flex flex-col overflow-hidden bg-background-dark pt-24 sm:pt-28 md:pt-32 lg:pt-0">
             <div className="absolute inset-0 z-0">
                 <img
                     alt="Dark atmospheric road at night"
@@ -13,7 +13,7 @@ export function LpHero() {
                 <div className="absolute inset-0 bg-gradient-to-r from-background-dark via-background-dark/80 to-transparent"></div>
                 <div className="absolute inset-0 bg-gradient-to-t from-background-dark via-transparent to-transparent"></div>
             </div>
-            <div className="container mx-auto px-6 relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mt-32 lg:mt-16">
+            <div className="container mx-auto px-6 relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center my-auto pb-12 lg:pb-0">
                 <AnimateInView className="space-y-6">
                     <div className="flex items-center gap-3">
                         <div className="h-1 w-12 bg-primary"></div>
