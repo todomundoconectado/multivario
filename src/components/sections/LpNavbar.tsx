@@ -5,7 +5,7 @@ export function LpNavbar() {
                 <div className="flex items-center gap-2">
                     <img
                         alt="Multivario Logo"
-                        className="w-[200px] sm:w-[250px] md:w-[400px] lg:w-[680px] h-auto lg:h-[170px] object-contain object-left"
+                        className="w-[150px] sm:w-[200px] md:w-[350px] lg:w-[680px] h-auto lg:h-[170px] object-contain object-left"
                         src="/images/diamond_led/logotipo.webp"
                     />
                 </div>
